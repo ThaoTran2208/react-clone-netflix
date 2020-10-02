@@ -1,0 +1,33 @@
+.Footer {
+  color: #757575;
+  padding: 70px 56px;
+}
+
+.footer__title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+a.footer__link {
+  color: #757575;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.footer__text {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+
+.footer__bottom{
+  border-top: 2px solid #222;
+  text-align: center;
+}

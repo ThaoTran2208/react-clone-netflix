@@ -1,0 +1,64 @@
+.optForm{
+    text-align: center;
+  }
+  
+  .optForm__label{
+    margin: 50px auto 15px;
+    font-size: 1.2rem;
+  }
+  
+  .optForm__group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .optForm__input{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px;
+    height: 70px;
+    box-sizing: border-box;
+  }
+  
+  .optForm__button{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: #e50914;
+    color: white;
+    padding: 0 32px;
+    font-size: 1.875rem;
+    border-radius: 0;
+  }
+  
+  .optForm__button:hover{
+    background-color: #f40612;
+  }
+
+
+  @media screen and (max-width: 1199px){
+    .optForm__input{
+      height: 60px;
+    }
+    .optForm__button{
+      height: 60px;
+      font-size: 1.625rem;
+    }
+  }
+
+  @media screen and (max-width: 991px){
+    .optForm__group{
+      flex-direction: column;
+    }
+    .optForm__input{
+      height: 48px;
+    }
+    .optForm__button{
+      margin-top: 15px;
+      height: 40px;
+      font-size: 1rem;
+    }
+  }
