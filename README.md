@@ -12,10 +12,11 @@ The App is live at https://netflix-clone-c53b5.web.app/
 ## Quick Start
 
 ### Install server dependencies
+### `npm install`
 
 ### Adding Firebase to your web service. Follow this link https://cloud.google.com/appengine/docs/standard/python3/building-app/adding-firebase
 
-Go to \src\lib\firebase.prod.js, change the config with your key:
+### `Go to \src\lib\firebase.prod.js, change the config with your key:
  {
     apiKey: "<API_KEY>",
     authDomain: "<PROJECT_ID>.firebaseapp.com",
@@ -23,7 +24,7 @@ Go to \src\lib\firebase.prod.js, change the config with your key:
     projectId: "<PROJECT_ID>",
     storageBucket: "<BUCKET>.appspot.com",
     messagingSenderId: "<SENDER_ID>",
-  };
+  };`
   
   and following the instruction in this.
-### npm start
+### `npm start`
